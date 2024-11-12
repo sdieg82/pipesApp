@@ -6,7 +6,7 @@ import {CardModule} from 'primeng/card'
 @Component({
   selector: 'app-basics-pages',
   standalone: true,
-  imports: [CommonModule,PanelModule,CardModule],
+  imports: [CommonModule,PanelModule,CardModule,],
   templateUrl: './basics-pages.component.html',
   styleUrl: './basics-pages.component.css'
 })

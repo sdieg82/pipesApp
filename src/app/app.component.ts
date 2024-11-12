@@ -16,7 +16,8 @@ registerLocaleData(localeEsEC)
     RouterOutlet,
     ButtonModule,
     CommonModule,
-    MenuComponent
+    MenuComponent,
+    
 ],
   templateUrl: './app.component.html',
   providers:[
