@@ -1,5 +1,5 @@
 import { CommonModule } from '@angular/common';
-import { Component, OnInit } from '@angular/core';
+import { Component, LOCALE_ID, OnInit } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { PrimeNGConfig } from 'primeng/api';
 import { ButtonModule } from 'primeng/button';
@@ -19,6 +19,11 @@ registerLocaleData(localeEsEC)
     MenuComponent
 ],
   templateUrl: './app.component.html',
+  providers:[
+    {
+      provide:LOCALE_ID, useValue:'es-EC'
+    }
+  ],
   styleUrl: './app.component.css'
 })
 export class AppComponent implements OnInit {
