@@ -4,7 +4,6 @@ import { RouterOutlet } from '@angular/router';
 import { PrimeNGConfig } from 'primeng/api';
 import { ButtonModule } from 'primeng/button';
 import { MenuComponent } from "./shared/components/menu/menu.component";
-
 import localeEsEC from "@angular/common/locales/es-EC";
 import {registerLocaleData} from '@angular/common'
 
@@ -16,8 +15,7 @@ registerLocaleData(localeEsEC)
     RouterOutlet,
     ButtonModule,
     CommonModule,
-    MenuComponent,
-    
+    MenuComponent, 
 ],
   templateUrl: './app.component.html',
   providers:[
